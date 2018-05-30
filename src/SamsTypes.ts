@@ -1,3 +1,12 @@
+/*
+ * Copyright (C) 2018 Amsterdam University of Applied Sciences (AUAS)
+ *
+ * This software is distributed under the therms of the
+ * GNU General Public Licence version 3 (GPL) version 3,
+ * copied verbatim in the file "LICENSE"
+ *
+ */
+
 /**
  * An user as we believe it is in the database.
  * @author H.J.M van der Heijden <h.j.m.van.der.heijden@hva.nl>

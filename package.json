@@ -2,13 +2,21 @@
     "name": "SamsALIbim",
     "version": "0.1.0",
     "description": "Driver for SAMS at CERN",
+    "license": "GNU public license V3",
+    "homepage": "https://github.com/SoftwareForScience/SamsALIbim",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoftwareForScience/SamsALIbim.git"
+    },
+    "contributors": [
+        "Heiko van der Heijden"
+    ],
     "scripts": {
         "tsc": "./node_modules/.bin/tsc",
         "test": "mocha -r ts-node/register tests/test1.ts"
     },
     "dependencies": {
         "@aliceo2/web-ui": "^1.1.2"
-        
     },
     "devDependencies": {
         "@types/es6-promise": "^3.3.0",
