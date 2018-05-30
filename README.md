@@ -1,4 +1,5 @@
 # SamsALIbim 
+[![Build Status](https://travis-ci.org/SoftwareForScience/SamsALIbim.svg?branch=master)](https://travis-ci.org/SoftwareForScience/SamsALIbim)
 The [ALICE project](http://alice-collaboration.web.cern.ch/) makes use of [SAMS (Shift Account Management System)](https://glance.cern.ch/alice/sams/) which is a human resources tool. This tool tracks collaborators, organizations and their roles and individual trainings. The data within this tool is used by Jiskefet, the bookkeeping tool for the ALICE experiment.
 
 This library is an attempt to create an api that stays constant while it allows for easy transition for different implementations of accessing SAMS.
