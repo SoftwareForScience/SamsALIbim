@@ -15,5 +15,5 @@ The project has the following goals:
 
 ## Pages:
 1. [Design](./docs/design.md)
-2. [Authentication](./docs/authentication.md)
+2. [Authentication](./docs/Authentication.md)
 3. [SAMS](./docs/SAMS.md)
