@@ -1,3 +1,7 @@
+/**
+ * Default exception that is parent thrown by all the SAMS exceptions
+ * @author H.J.M van der Heijden <h.j.m.van.der.heijden@hva.nl>
+ */
 export class SamsException {
     private message : string;
     constructor(msg: string) {

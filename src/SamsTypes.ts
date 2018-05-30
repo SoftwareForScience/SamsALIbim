@@ -1,5 +1,6 @@
 /**
  * An user as we believe it is in the database.
+ * @author H.J.M van der Heijden <h.j.m.van.der.heijden@hva.nl>
  */
 export class SamsUser {
     private _name : string;
@@ -32,11 +33,17 @@ export class SamsUser {
     }
 }
 
+/**
+ *  @author H.J.M van der Heijden <h.j.m.van.der.heijden@hva.nl>
+ */
 class Organization {
     private _organization_id: number;
     private _organization_name: string;
 }
 
+/**
+ * @author H.J.M van der Heijden <h.j.m.van.der.heijden@hva.nl>
+ */
 class Training {
     private user_id: number;
     private _training_name: string;
