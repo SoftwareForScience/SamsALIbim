@@ -6,8 +6,8 @@
  * copied verbatim in the file "LICENSE"
  *
  */
-import SamsSettings from './SamsSettings';
-import SamsDriver from './SamsDriver';
+import { ISamsDriver } from "./SamsDriver";
+import { SamsSettings } from "./SamsSettings";
 
 /**
  * Global class for managing SAMS (Alice Shift Accounting management system)
@@ -16,18 +16,16 @@ import SamsDriver from './SamsDriver';
  * @
  */
 export class Sams  {
-    private _settings : SamsSettings;
-    private _driver : SamsDriver;
+    private samsDriver: ISamsDriver;
+    private samsSettings: SamsSettings;
 
-    constructor(settings: SamsSettings, driver: SamsDriver) {
-        this._settings = settings;
+    public constructor(settings: SamsSettings, driver: ISamsDriver) {
+        this.samsSettings = settings;
+        this.samsDriver = driver;
     }
 
-    get settings  () : SamsSettings {
-        return this._settings
+    public get settings(): SamsSettings {
+        return this.samsSettings;
     }
-
 
 }
-
-export default Sams;

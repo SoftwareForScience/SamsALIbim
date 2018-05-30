@@ -12,58 +12,56 @@
  * @author H.J.M van der Heijden <h.j.m.van.der.heijden@hva.nl>
  */
 export class SamsSettings {
-    private _connectionToken: string;
-    
-    private _connectionURL: string;
-    
-    private _dbConcurrency: number;
+    private samsConnectionToken: string;
 
-    private _databasePort: number;
+    private samsConnectionURL: string;
 
-    private _databaseUser: string;
+    private samsDatabaseName: string;
 
-    private _databaseName: string;
+    private samsDatabasePort: number;
 
-    constructor(
+    private samsDatabaseUser: string;
+
+    private samsDBConcurrency: number;
+
+    public constructor(
         connectionToken: string,
         connectionURL: string,
         dbConcurrency: number,
         databasePort: number,
         databaseUser: string,
-        databaseName: string
+        databaseName: string,
      ) {
-         this._connectionToken = connectionToken;
-         this._connectionURL = connectionURL;
-         this._dbConcurrency = dbConcurrency;
-         this._databaseUser = databaseUser;
-         this._databasePort = databasePort;
-         this._databaseName = databaseName;
+         this.samsConnectionToken = connectionToken;
+         this.samsConnectionURL = connectionURL;
+         this.samsDBConcurrency = dbConcurrency;
+         this.samsDatabaseUser = databaseUser;
+         this.samsDatabasePort = databasePort;
+         this.samsDatabaseName = databaseName;
         }
 
-    get databaseName () : string {
-        return this._databaseName;
+    public get databaseName(): string {
+        return this.samsDatabaseName;
     }
 
-    get databasePort () :  number {
-        return this._databasePort;
+    public get databasePort(): number {
+        return this.samsDatabasePort;
     }
 
-    get databaseUser () : string {
-        return this._databaseUser;
+    public get databaseUser(): string {
+        return this.samsDatabaseUser;
     }
 
-    get connectionToken() : string {
-        return this._connectionToken;
+    public get connectionToken(): string {
+        return this.samsConnectionToken;
     }
 
-    get connectionURL() : string {
-        return this._connectionURL;
+    public get connectionURL(): string {
+        return this.samsConnectionURL;
     }
 
-    get DBConcurrency() : number {
-        return this._dbConcurrency;
+    public get DBConcurrency(): number {
+        return this.samsDBConcurrency;
     }
 
 }
-
-export default SamsSettings;

@@ -6,20 +6,18 @@
  * copied verbatim in the file "LICENSE"
  *
  */
-import { SamsException, SamsNotImplementedException } from "./SamsExceptions";
-import { SamsUser } from "./SamsTypes";
+import { SamsUser } from "./SamsUser";
 
 /**
  * The interface an implementation of SAMS should adhere to.
  * @author H.J.M van der Heijden <h.j.m.van.der.heijden@hva.nl>
  */
-export interface SamsDriver {
+export interface ISamsDriver {
 
-    getUserKey(id: string) : Promise<number>;
+    close(): void;
 
-    getUserByID(id: number) : Promise<SamsUser>;
+    getUserByID(id: number): Promise<SamsUser>;
 
-    close() : void;
+    getUserKey(id: string): Promise<number>;
+
 }
-
-export default SamsDriver;
