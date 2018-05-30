@@ -10,3 +10,6 @@ The project has the following goals:
 2. Allow the library to change implementation of the data access without to much hassle
 3. Allow for using test servers run locally at Software for Science.
 4. Test the capacities of Typescript in combination with the WebUI library.
+
+## Pages:
+1. [Design](./doc/design.md)
