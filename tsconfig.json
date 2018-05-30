@@ -8,12 +8,12 @@
         "sourceMap": false
     },
     "files": [
-        "./src/Sams.ts",
-        "./src/SamsSettings.ts",
-        "./src/SamsDriver.ts",
-        "./src/SamsSettings.ts",
-        "./src/SamsOrganization.ts",
-        "./src/SamsTraining.ts",
+        "./src/SAMS/Sams.ts",
+        "./src/SAMS/SamsSettings.ts",
+        "./src/SAMS/SamsDriver.ts",
+        "./src/SAMS/SamsSettings.ts",
+        "./src/SAMS/SamsOrganization.ts",
+        "./src/SAMS/SamsTraining.ts",
         "./src/tmpDrivers/SamsMySQLDriver.ts",
         "./src/tmpDrivers/SamsHardCodedDriver.ts"
 

@@ -15,7 +15,7 @@
         "tsc": "./node_modules/.bin/tsc",
         "test": "npm run mocha && npm run tslint",
         "mocha": "mocha -r ts-node/register tests/test1.ts",
-        "tslint":"./node_modules/tslint/bin/tslint -c ./.tslint.ts ./test/*.ts  ./src/*.ts"
+        "tslint":"./node_modules/tslint/bin/tslint -c ./.tslint.ts ./test/*.ts  ./src/SAMS/*.ts"
     },
     "dependencies": {
         "@aliceo2/web-ui": "^1.1.2"
