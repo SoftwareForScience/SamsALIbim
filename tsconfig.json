@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "outDir": "built",
+        "rootDir": ".",
+        "sourceMap": false
+    },
+    "files": [
+        "./src/Sams.ts",
+        "./src/SamsSettings.ts",
+        "./src/SamsExceptions.ts",
+        "./src/SamsDriver.ts",
+        "./src/SamsSettings.ts",
+        "./src/tmpDrivers/SamsMySQLDriver.ts",
+        "./src/tmpDrivers/SamsHardCodedDriver.ts"
+        
+
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
