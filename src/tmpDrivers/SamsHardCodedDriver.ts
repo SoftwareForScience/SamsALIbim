@@ -7,8 +7,8 @@
  *
  */
 
-import { ISamsDriver } from "../SamsDriver";
-import { SamsUser } from "../SamsUser";
+import { ISamsDriver } from "../SAMS/SamsDriver";
+import { SamsUser } from "../SAMS/SamsUser";
 const {logger} = require("@aliceo2/web-ui");
 
 class SamsHardCodedDriver implements ISamsDriver {

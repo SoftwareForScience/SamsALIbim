@@ -6,9 +6,9 @@
  * copied verbatim in the file "LICENSE"
  *
  */
-import { ISamsDriver } from "../SamsDriver";
-import { SamsSettings } from "../SamsSettings";
-import { SamsUser } from "../SamsUser";
+import { ISamsDriver } from "../SAMS/SamsDriver";
+import { SamsSettings } from "../SAMS/SamsSettings";
+import { SamsUser } from "../SAMS/SamsUser";
 const {MySQL} = require("@aliceo2/web-ui");
 
 export class SamsMySQLDriver implements ISamsDriver {

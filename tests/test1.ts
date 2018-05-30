@@ -1,6 +1,6 @@
-import {Sams} from '../src/Sams';
+import {Sams} from '../src/SAMS/Sams';
 import {expect} from 'chai'
-import { SamsSettings } from '../src/SamsSettings';
+import { SamsSettings } from '../src/SAMS/SamsSettings';
 
 describe('Hello function', () => {
     it('should return hello world', () => {
