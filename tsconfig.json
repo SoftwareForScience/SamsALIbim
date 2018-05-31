@@ -8,18 +8,18 @@
         "sourceMap": true
     },
     "files": [
-        "./src/SAMS/Sams.ts",
-        "./src/SAMS/SamsSettings.ts",
-        "./src/SAMS/SamsDriver.ts",
-        "./src/SAMS/SamsSettings.ts",
-        "./src/SAMS/SamsOrganization.ts",
-        "./src/SAMS/SamsTraining.ts",
-        "./src/tmpDrivers/SamsMySQLDriver.ts",
-        "./src/tmpDrivers/SamsHardCodedDriver.ts"
+        "./lib/SAMS/Sams.ts",
+        "./lib/SAMS/SamsSettings.ts",
+        "./lib/SAMS/SamsDriver.ts",
+        "./lib/SAMS/SamsSettings.ts",
+        "./lib/SAMS/SamsOrganization.ts",
+        "./lib/SAMS/SamsTraining.ts",
+        "./lib/tmpDrivers/SamsMySQLDriver.ts",
+        "./lib/tmpDrivers/SamsHardCodedDriver.ts",
 
-        
-
+        "./test/test1.spec.ts"
     ],
+
     "exclude": [
         "node_modules"
     ]

@@ -13,9 +13,11 @@
     ],
     "scripts": {
         "tsc": "./node_modules/.bin/tsc",
+        "pretest": "tsc -p .",
         "test": "npm run mocha && npm run tslint",
-        "mocha": "mocha -r ts-node/register tests/test1.ts",
-        "tslint":"./node_modules/tslint/bin/tslint -c ./.tslint.ts ./test/*.ts  ./src/SAMS/*.ts"
+        "mocha": "./node_modules/.bin/nyc ./node_modules/mocha/bin/mocha ./built/test/*.js",
+        "tslint": "./node_modules/tslint/bin/tslint -c ./.tslint.ts ./test/*.ts  ./src/SAMS/*.ts",
+        "posttest": "./node_modules/.bin/nyc --reporter=json && codecov -f .nyc_output/*.json"
     },
     "dependencies": {
         "@aliceo2/web-ui": "^1.1.2"
@@ -26,7 +28,9 @@
         "@types/mocha": "^5.2.0",
         "@types/node": "^10.1.4",
         "chai": "^4.1.2",
+        "codecov": "^3.0.2",
         "mocha": "^5.2.0",
+        "nyc": "^11.8.0",
         "ts-node": "^6.0.5",
         "tslint": "^5.10.0",
         "typescript": "^2.8.3"
