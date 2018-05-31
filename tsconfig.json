@@ -5,7 +5,7 @@
         "noImplicitAny": false,
         "outDir": "built",
         "rootDir": ".",
-        "sourceMap": false
+        "sourceMap": true
     },
     "files": [
         "./src/SAMS/Sams.ts",
