@@ -1,5 +1,7 @@
 # SamsALIbim 
-[![Build Status](https://travis-ci.org/SoftwareForScience/SamsALIbim.svg?branch=master)](https://travis-ci.org/SoftwareForScience/SamsALIbim) [![dependencies Status](https://david-dm.org/softwareforscience/SamsAliBim/status.svg)](https://david-dm.org/softwareforscience/SamsAliBim) [![devDependencies Status](https://david-dm.org/softwareforscience/SamsAliBim/dev-status.svg)](https://david-dm.org/softwareforscience/SamsAliBim?type=dev)
+[![Build Status](https://travis-ci.org/SoftwareForScience/SamsALIbim.svg?branch=master)](https://travis-ci.org/SoftwareForScience/SamsALIbim) [![dependencies Status](https://david-dm.org/softwareforscience/SamsAliBim/status.svg)](https://david-dm.org/softwareforscience/SamsAliBim) [![devDependencies Status](https://david-dm.org/softwareforscience/SamsAliBim/dev-status.svg)](https://david-dm.org/softwareforscience/SamsAliBim?type=dev) [![codecov](https://codecov.io/gh/SoftwareForScience/SamsALIbim/branch/master/graph/badge.svg)](https://codecov.io/gh/SoftwareForScience/SamsALIbim)
+
+
 
 The [ALICE project](http://alice-collaboration.web.cern.ch/) makes use of [SAMS (Shift Account Management System)](https://glance.cern.ch/alice/sams/) which is a human resources tool. This tool tracks collaborators, organizations and their roles and individual trainings. The data within this tool is used by Jiskefet, the bookkeeping tool for the ALICE experiment.
 
